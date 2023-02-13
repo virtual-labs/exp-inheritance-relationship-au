@@ -1,1 +1,1 @@
-## Experiment name
+## Implementing Inheritance Relationship
