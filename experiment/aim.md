@@ -1,1 +1,3 @@
-### To implement inheritance relationship between classes in C++/Java from the class diagram
+### Aim
+
+To implement inheritance relationship between classes in Java from the class diagram
