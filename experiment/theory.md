@@ -14,11 +14,11 @@
 
 -  Syntax of inheritance:
 
-![fig1](images\fig1.jpg)
+![fig1](images/fig1.jpg)
 
 Memory allocation for object of derived class:
 
-![fig2](images\fig2.jpg)
+![fig2](images/fig2.jpg)
 
 Concepts related to inheritance:
 
@@ -26,47 +26,47 @@ Concepts related to inheritance:
 
 Consider the three classes:
 
-![fig3](images\fig3.jpg)
+![fig3](images/fig3.jpg)
 
 They have a common abstraction called the Shape. Apply generalization as follows:
 
-![fig4](images\fig4.jpg)
+![fig4](images/fig4.jpg)
 
 2. Subtyping: Subtyping means the derived class is behaviorally compatible with the base class. Behaviorally compatible means the base class can be replaced by derived class.
 
 3. Specialization: Specialization means the derived class is behaviorally incompatible with the base class. Behaviorally compatible means the base class cannot be replaced by derived class.
 
-![fig5](images\fig5.jpg)
+![fig5](images/fig5.jpg)
 
 **Types of Inheritance:***
 
 1.  Single inheritance: When a class extends one class only then we call it single inheritance.
 
-![fig6](images\fig6.jpg)
+![fig6](images/fig6.jpg)
 
 2.  Multilevel inheritance
 
-![fig7](images\fig7.jpg)
+![fig7](images/fig7.jpg)
 
 3.  Hierarchical inheritance: in this inheritance multiple classes inherits from a single class i.e there is one super class and multiple sub classes, As we can see from the below diagram when a same class is having more than one sub class (or) more than one sub class has the same parent is called as hierarchical inheritance,
 
-![fig8](images\fig8.jpg)
+![fig8](images/fig8.jpg)
 
 4. Multiple inheritance: In Java programming, multiple and hybrid inheritance is not supported through interface only.
 
-![fig9](images\fig9.jpg)
+![fig9](images/fig9.jpg)
 
-![fig10](images\fig10.jpg)
+![fig10](images/fig10.jpg)
 
 5. Hybrid inheritance: Any combination of previous three inheritance (single, hierarchical, and multilevel) is called as hybrid inheritance.
 
-![fig11](images\fig11.jpg)
+![fig11](images/fig11.jpg)
 
 **Access control in derived class:**
 
 A derived class can access all the non-private members of its base class. Thus base-class members that should not be accessible to the members of derived classes should be declared private in base class.
 
-![fig12](images\fig12.jpg)
+![fig12](images/fig12.jpg)
 
 Access specifiers and inheritance:
 
@@ -82,7 +82,7 @@ The following rules for inherited methods are enforced:
 
 The table of access control for various specifiers is as follows:
 
-![fig13](images\fig13.jpg)
+![fig13](images/fig13.jpg)
 
 **Super Keyword:**
 
@@ -160,8 +160,8 @@ super.message(); // wil invoke or call parent class message() method
 
 A concept in Java which allows programmer to declare method with same name but different behavior. Methods with same name co-exists in same class but they must have different method signature. It is resolved using static binding at compile time.
 
-![fig14](images\fig14.jpg)
+![fig14](images/fig14.jpg)
 
 To change signature, either change number of argument, type of argument or order of argument. Since return type is not part of methods signature changing return type will result in duplicate method and you will get compile time error in Java.
 
-![fig15](images\fig15.jpg)
+![fig15](images/fig15.jpg)
