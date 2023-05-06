@@ -1,0 +1,44 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "1.What is inheritance in Java?",
+        "answers": {
+          "a": "a.A mechanism to acquire all the properties of the child object",
+          "b": "b.A mechanism by which one object acquires all the properties and behaviors of parent object",
+          "c": "c.A mechanism to restrict access to class members",
+          "d": "d.A mechanism to declare multiple methods with the same name"
+        },
+        "explanations": {
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "2.Which keyword is used to describe inheritance in Java?",
+        "answers": {
+          "a": "a.Inherit",
+          "b": "b.Extends",
+          "c": "c.Implements",
+          "d": "d.Inherits"
+        },
+        "explanations": {
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "3.What does inheritance describe in Java?",
+        "answers": {
+          "a": "a.A parent-child or a super class-subclass relationship",
+          "b": "b.A sibling relationship between classes",
+          "c": "c.A relationship between unrelated classes",
+          "d": "d.A relationship between methods and variables"
+        },
+        "explanations": {
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      }
+    ]
+  }

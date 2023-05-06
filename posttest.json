@@ -1,0 +1,44 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "1.What is the difference between single and multiple inheritance?",
+        "answers": {
+          "a": "a.Single inheritance allows a class to extend one class only, while multiple inheritance allows a class to extend multiple classes.",
+          "b": "b.Single inheritance allows a class to extend multiple classes, while multiple inheritance allows a class to extend one class only.",
+          "c": "c.Single inheritance and multiple inheritance are the same thing.",
+          "d": "d.None of the above."
+        },
+        "explanations": {
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "2.Suppose you are designing a software system for a company that sells different types of vehicles, including cars, trucks, and motorcycles. Each vehicle has a unique identification number, a make and model, a year of manufacture, and a price. Cars have additional properties such as the number of doors and the type of fuel they use, while trucks have properties such as their load capacity and the type of cargo they carry. Motorcycles have properties such as their engine displacement and the type of handlebars they have. Which of the following statements about using inheritance to design the class hierarchy for this system is true?",
+        "answers": {
+          "a": "a.Each type of vehicle should have its own class with all of its properties and methods defined within that class.",
+          "b": "b.A single class should be created to represent all vehicles, with properties and methods common to all vehicles defined in that class, and specific properties and methods defined in separate classes for each type of vehicle.",
+          "c": "c.A single class should be created to represent all vehicles, with specific properties and methods defined using inheritance from a base vehicle class.",
+          "d": "d.A separate class should be created for each property and method of a vehicle, with each class representing a different aspect of the vehicle."
+        },
+        "explanations": {
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "3.Which of the following variables can be moved from Customer and Office Executive classes to Person class?",
+        "answers": {
+          "a": "a.customerID and executiveID",
+          "b": "b.customerName and executiveName",
+          "c": "c.customerContact and executiveContact",
+          "d": "d.customerAddress and executiveAddress"
+        },
+        "explanations": {
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+    ]
+  }
