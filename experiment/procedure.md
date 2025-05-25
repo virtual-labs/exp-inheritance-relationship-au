@@ -38,6 +38,8 @@ Experiment 4 recap: The class Customer was implemented in Java following the con
 
 Experiment 5 recap: The aggregation and composition relationship of the class **Customer** and class Vehicle with class **Reservation** was implemented in java.
 
+#### Steps for current experiment:
+
 Now, the steps to implement the generalization of the class **Customer** and class **Clerk** as the class **Person** as follows:
 
 Step 1: Identify the generalized attributes and its accessor/mutator methods of the class Customer and class Clerk to create a parent class Person. Modify the class diagram to reflect this inheritance relationship.
