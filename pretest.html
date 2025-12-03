@@ -356,7 +356,7 @@
                 
                 
                   <div class="question beginner">
-                    1.What is inheritance in Java?
+                    1. What is inheritance in Java?
                   </div>
                   
                   <div class="answers">
@@ -395,7 +395,7 @@
                 </div>
                 
                   <div class="question beginner">
-                    2.Which keyword is used to describe inheritance in Java?
+                    2. Which keyword is used to describe inheritance in Java?
                   </div>
                   
                   <div class="answers">
@@ -434,7 +434,7 @@
                 </div>
                 
                   <div class="question beginner">
-                    3.What does inheritance describe in Java?
+                    3. What does inheritance describe in Java?
                   </div>
                   
                   <div class="answers">
@@ -471,13 +471,92 @@
                     </div>
                     <p class="panel">Explanation</p>
                 </div>
+
+                <div class="question beginner">
+                    4. A class Animal has a method makeSound(). A class Dog inherits from Animal and overrides makeSound() to produce 'Woof!'. A class Cat also inherits from Animal and overrides makeSound() to produce 'Meow!'.  What is this scenario an example of?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer3a">
+                      <label>
+                        <input type="radio" name="question3" value="a">
+                        a: Multiple Inheritance
+                      </label>
+                      <a href="#" id="explanation3a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3b">
+                      <label>
+                        <input type="radio" name="question3" value="b">
+                        b: Hierarchical Inheritance
+                      </label>
+                      <a href="#" id="explanation3b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3c">
+                      <label>
+                        <input type="radio" name="question3" value="c">
+                        c: Single Inheritance
+                      </label>
+                      <a href="#" id="explanation3c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3d">
+                      <label>
+                        <input type="radio" name="question3" value="d">
+                        d: Hybrid Inheritance
+                      </label>
+                      <a href="#" id="explanation3d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
+                <div class="question beginner">
+                      5. A class Animal has a method makeSound(). A class Dog inherits from Animal and overrides makeSound() to produce 'Woof!'. A class Cat also inherits from Animal and overrides makeSound() to produce 'Meow!'.  If a Dog object's makeSound() method is called, what sound will be produced?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer4a">
+                      <label>
+                        <input type="radio" name="question4" value="a">
+                        a: The makeSound() method of the Animal class
+                      </label>
+                      <a href="#" id="explanation4a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4b">
+                      <label>
+                        <input type="radio" name="question4" value="b">
+                        b: The makeSound() method of the Dog class.
+                      </label>
+                      <a href="#" id="explanation4b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4c">
+                      <label>
+                        <input type="radio" name="question4" value="c">
+                        c: The makeSound() method of the Cat class.
+                      </label>
+                      <a href="#" id="explanation4c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4d">
+                      <label>
+                        <input type="radio" name="question4" value="d">
+                        d: It will produce no sound.
+                      </label>
+                      <a href="#" id="explanation4d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
                </div>
                 <button id="submit" class="btn btn-primary">Submit Quiz</button>
                 <div id="results"></div>
           </div>
             
             <script>
-              const myQuestions = [{"question":"1.What is inheritance in Java?","answers":{"a":"A mechanism to acquire all the properties of the child object","b":"A mechanism by which one object acquires all the properties and behaviors of parent object","c":"A mechanism to restrict access to class members","d":"A mechanism to declare multiple methods with the same name"},"explanations":{},"correctAnswer":"b","difficulty":"beginner"},{"question":"2.Which keyword is used to describe inheritance in Java?","answers":{"a":"Inherit","b":"Extends","c":"Implements","d":"Inherits"},"explanations":{},"correctAnswer":"b","difficulty":"beginner"},{"question":"3.What does inheritance describe in Java?","answers":{"a":"A parent-child or a super class-subclass relationship","b":"A sibling relationship between classes","c":"A relationship between unrelated classes","d":"A relationship between methods and variables"},"explanations":{},"correctAnswer":"a","difficulty":"beginner"}];
+              const myQuestions = [{"question":"1.What is inheritance in Java?","answers":{"a":"A mechanism to acquire all the properties of the child object","b":"A mechanism by which one object acquires all the properties and behaviors of parent object","c":"A mechanism to restrict access to class members","d":"A mechanism to declare multiple methods with the same name"},"explanations":{},"correctAnswer":"b","difficulty":"beginner"},{"question":"2.Which keyword is used to describe inheritance in Java?","answers":{"a":"Inherit","b":"Extends","c":"Implements","d":"Inherits"},"explanations":{},"correctAnswer":"b","difficulty":"beginner"},{"question":"3.What does inheritance describe in Java?","answers":{"a":"A parent-child or a super class-subclass relationship","b":"A sibling relationship between classes","c":"A relationship between unrelated classes","d":"A relationship between methods and variables"},"explanations":{},"correctAnswer":"a","difficulty":"beginner"},{"question":"4. A class Animal has a method makeSound(). A class Dog inherits from Animal and overrides makeSound() to produce 'Woof!'. A class Cat also inherits from Animal and overrides makeSound() to produce 'Meow!'.  What is this scenario an example of?","answers":{"a":"Multiple Inheritance","b":"Hierarchical Inheritance","c":"Single Inheritance","d":"Hybrid Inheritance"},"explanations":{},"correctAnswer":"b","difficulty":"beginner"},{"question":"5. A class Animal has a method makeSound(). A class Dog inherits from Animal and overrides makeSound() to produce 'Woof!'. A class Cat also inherits from Animal and overrides makeSound() to produce 'Meow!'.  If a Dog object's makeSound() method is called, what sound will be produced?","answers":{"a":"The makeSound() method of the Animal class","b":"The makeSound() method of the Dog class.","c":"The makeSound() method of the Cat class.","d":"It will produce no sound."},"explanations":{},"correctAnswer":"b","difficulty":"beginner"}];
             </script>
               <script src="./assets/js/assessment_v2.js"></script>  
           <div class="bug-report-mobile">
