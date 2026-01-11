@@ -2,7 +2,7 @@
     "version": 2.0,
     "questions": [
       {
-        "question": "1.What is inheritance in Java?",
+        "question": "1. What is inheritance in Java?",
         "answers": {
           "a": "A mechanism to acquire all the properties of the child object",
           "b": "A mechanism by which one object acquires all the properties and behaviors of parent object",
@@ -15,7 +15,7 @@
         "difficulty": "beginner"
       },
       {
-        "question": "2.Which keyword is used to describe inheritance in Java?",
+        "question": "2. Which keyword is used to describe inheritance in Java?",
         "answers": {
           "a": "Inherit",
           "b": "Extends",
@@ -28,7 +28,7 @@
         "difficulty": "beginner"
       },
       {
-        "question": "3.What does inheritance describe in Java?",
+        "question": "3. What does inheritance describe in Java?",
         "answers": {
           "a": "A parent-child or a super class-subclass relationship",
           "b": "A sibling relationship between classes",
@@ -38,6 +38,32 @@
         "explanations": {
         },
         "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+            {
+        "question": "4. A class Animal has a method makeSound(). A class Dog inherits from Animal and overrides makeSound() to produce 'Woof!'. A class Cat also inherits from Animal and overrides makeSound() to produce 'Meow!'.  What is this scenario an example of?",
+        "answers": {
+          "a": "Multiple Inheritance",
+          "b": "Hierarchical Inheritance",
+          "c": "Single Inheritance",
+          "d": "Hybrid Inheritance"
+        },
+        "explanations": {
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+            {
+        "question": "5. A class Animal has a method makeSound(). A class Dog inherits from Animal and overrides makeSound() to produce 'Woof!'. A class Cat also inherits from Animal and overrides makeSound() to produce 'Meow!'.  If a Dog object's makeSound() method is called, what sound will be produced?",
+        "answers": {
+          "a": "The makeSound() method of the Animal class",
+          "b": "The makeSound() method of the Dog class.",
+          "c": "The makeSound() method of the Cat class.",
+          "d": "It will produce no sound."
+        },
+        "explanations": {
+        },
+        "correctAnswer": "b",
         "difficulty": "beginner"
       }
     ]
