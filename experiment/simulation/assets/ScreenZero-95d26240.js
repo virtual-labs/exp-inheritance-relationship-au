@@ -76,8 +76,13 @@ const z = {
                 this.$router.push("/screen-clerk-customer"));
             }, 2500));
         } else {
-          let s1 = this.getList(1).length === 0 ? "Empty" : (this.valid[0] ? "✅ Correct" : "❌ Incorrect");
-          let s2 = this.getList(2).length === 0 ? "Empty" : (this.valid[1] ? "✅ Correct" : "❌ Incorrect");
+         let s1 = this.getList(1).length === 0
+  ? "Top Box: Assign the general class"
+  : (this.valid[0] ? "Top Box: ✅ Correct" : "Top Box: ❌ Incorrect. The general class should be Person");
+
+let s2 = this.getList(2).length === 0
+  ? "Bottom Box: Assign a specific class"
+  : (this.valid[1] ? "Bottom Box: ✅ Correct" : "Bottom Box: ❌ Incorrect. Customer or Office Executive should be here");
           ((l.innerHTML =
             "Top Box → " +
             s1 +
